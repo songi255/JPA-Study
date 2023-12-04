@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import org.example.model.entity.item.Item;
 
 @Entity
 @Table(name = "ORDER_ITEM")
